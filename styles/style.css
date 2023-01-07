@@ -24,6 +24,7 @@ nav {
 
 nav ul{
     display: flex;
+    align-items: center;
 
 }
 
@@ -31,17 +32,47 @@ nav li {
     list-style: none;
     margin-left: 35px;
     
+    
 
 }
 
 .btn-primary {
 
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     background-color: #FD6E0A;
     font-weight: 600;
     font-size: 20px;
-    height: 64px;
+    height: 50px;
     border-radius: 5px;
     border: none;
 
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+#hero-title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#hero-subtitle {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.hero-description {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 10px;
 }
